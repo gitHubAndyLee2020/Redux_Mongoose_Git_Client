@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'http://localhost:5000/todos'
+const url = 'https://redux-mongoose-git.herokuapp.com/todos'
 
 export const getTodos = () => axios.get(url)
 export const createTodo = (todo) => axios.post(url, todo)
